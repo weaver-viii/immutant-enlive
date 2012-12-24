@@ -1,0 +1,9 @@
+target
+.externalToolBuilders
+.project
+.classpath
+.settings
+.cache
+.scala_dependencies
+.idea
+*.iml

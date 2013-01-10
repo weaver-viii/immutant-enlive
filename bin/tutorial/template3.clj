@@ -2,7 +2,7 @@
   (:require [net.cgrand.enlive-html :as html])
   (:use [net.cgrand.moustache :only [app]]
         [tutorial.utils
-         :only [run-server render-to-response render-request
+         :only [render-to-response render-request
                 maybe-content maybe-substitute page-not-found]]))
 
 ;; =============================================================================
@@ -70,5 +70,3 @@
 ;; =============================================================================
 ;; The App
 ;; =============================================================================
-
-(defonce *server* (run-server routes))

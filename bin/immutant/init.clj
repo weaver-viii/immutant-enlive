@@ -15,7 +15,7 @@
 
 ; (web/start "/" my-ring-handler)
 ; (web/start "/foo" a-different-ring-handler)
-(web/start ring-handler)
+(web/start #'app :reload true)
 (web/start "/tut" tut/routes)
 (web/start "/tut2" tut2/routes)
 ;; To start a Noir app:

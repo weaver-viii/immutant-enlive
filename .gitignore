@@ -7,3 +7,4 @@ target
 .scala_dependencies
 .idea
 *.iml
+/bin
